@@ -17,7 +17,7 @@ export default function Index({ posts, globalData }) {
         
         
         <div>Teachable Machine Image Model</div>
-        <button type="button" onclick="">Start</button>
+        <button type="button" onClick="init()">Start</button>
         <div id="webcam-container"></div>
         <div id="label-container"></div>
         
