@@ -17,9 +17,9 @@ export default function Index({ posts, globalData }) {
         
         
         <div>Teachable Machine Image Model</div>
-<button type="button" onclick="init()">Start</button>
-<div id="webcam-container"></div>
-<div id="label-container"></div>
+        <button type="button" onclick="">Start</button>
+        <div id="webcam-container"></div>
+        <div id="label-container"></div>
         
       </main>
       <Footer copyrightText={globalData.footerText} />
