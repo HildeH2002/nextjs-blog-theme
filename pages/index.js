@@ -7,6 +7,8 @@ import Layout, { GradientBackground } from '../components/Layout';
 import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
+src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"
+src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"
 
 export default function Index({ posts, globalData }) {
   return (
